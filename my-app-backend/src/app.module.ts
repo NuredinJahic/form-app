@@ -14,7 +14,7 @@ import { UsersService } from './users/users.service';
       password: 'nuredin123',
       database: 'nuredin_db',
       entities: [User],
-      synchronize: true, // Automatically sync database schema (for development only)
+      synchronize: true, 
     }),
     TypeOrmModule.forFeature([User]),
   ],
