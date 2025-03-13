@@ -1,0 +1,66 @@
+.task-form {
+    width: 90%;
+    max-width: 50rem;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #2c0a4c, #450d80);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
+    color: #c3b3d8;
+    text-align: center; /* Centers the content inside the form */
+  }
+  
+  /* Form field styling */
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea,
+  .form-group select { /* Add select to the list of styled elements */
+    width: 100%;
+    max-width: 400px; /* Limits width of inputs */
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #2c0a4c;
+    color: #c3b3d8;
+    font-size: 1rem;
+    margin: 0 auto; /* Centers the input fields */
+    display: block;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus,
+  .form-group select:focus { /* Add focus styling for select */
+    border-color: #330662;
+    outline: none;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 0.75rem 1.5rem;
+    background: #2f046b;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    margin-top: 1rem; /* Adds space above the button */
+    display: inline-block; /* Keeps button centered */
+  }
+  
+  button:hover {
+    background: #8f809c;
+  }
